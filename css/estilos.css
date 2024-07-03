@@ -686,10 +686,10 @@ div.pie_contacto span{
 
 .personajes article {
 	align-items: center;
-	border: 10px solid black;
+	/* border: 10px solid black; */
 	width: 800px;
 	/* background-color: wheat; */
-	
+	background: radial-gradient(white -20px);
 	
 }
 .personajes article div{
@@ -707,8 +707,7 @@ div.pie_contacto span{
 	width: auto;
 	height: 300px;
 	background: radial-gradient(white,#660000 60%);
-
-} 
+}
 
 
 @media (max-width: 480px) { 
