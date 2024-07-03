@@ -687,7 +687,7 @@ div.pie_contacto span{
 .personajes article {
 	align-items: center;
 	/* border: 10px solid black; */
-	width: 800px;
+	width: 550px;
 	/* background-color: wheat; */
 	background: radial-gradient(white -20px);
 	
@@ -700,14 +700,34 @@ div.pie_contacto span{
 	text-align: center;
 	margin: 0;
 }
+
 .personajes article div div{
 	display: flex;
 }
-.personajes article div div img{
+ /* .personajes article div div img{
 	width: auto;
-	height: 300px;
-	background: radial-gradient(white,#660000 60%);
+	
+	
+} */
+.card {
+	height: auto;
+	width: auto;
+	/* background: radial-gradient(white,#660000 60%); */
+	background: radial-gradient(white,rgba(255, 255, 255, 0) 60%);
+	align-items: center;
 }
+
+.card img{
+	/* min-height: 350px;
+	min-width: auto; */
+	height: 300px;
+	width: auto;
+}
+
+.card p{
+	
+}
+
 
 
 @media (max-width: 480px) { 
