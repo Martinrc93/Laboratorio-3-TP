@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="images/iconoweb.png">
+    <title>X-MEN'97</title>
+</head>
+<body>
+    <header>
+        <div  >
+            <a  href="index.html"><img class="logo" src="images/xmenlogo1.png" alt="Logo Pixar"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar">
+            <ul >
+                <li><a class="negrita" href="index.html">Inicio</a></li>
+                <li><a href="personajes.html">Personajes</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="resenas.html">Reseñas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article class="principal">
+            <div>
+                <img class="logo" src="images/xmenlogo1.png" alt="X MEN 97">
+                <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, accusantium?.</h2>
+            </div>
+        </article>
+        <h1>INICIO</h1>
+        <article class="secundario">
+            <div>
+                <a href="#">
+                    <img src="images/xmen97poster.jpg" alt="">
+                    <h4>HISTORIA</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xmenbanner.jpg" alt="">
+                    <h4>TEMPORADAS</h4>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/xmenpersonajes.jpg" alt="">
+                    <h4>PERSONAJES</h4>
+                </a>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <div class="info">
+            <div class="logodisney">
+                <a href="https://www.disneyplus.com/es-ar" target="_blank">
+                    <img  src="images/pngwing.com.png" alt="">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/Disney/?locale=es_LA" target="_blank"> <img src="images/iconsFacebook.png" alt="Facebook"></a> 
+                <a href="https://x.com/MarvelLATAM" target="_blank"> <img src="images/iconsTwitterx.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/xmenofficial/" target="_blank"> <img src="images/iconsInstagram.png" alt="Instagram"></a>    
+                <a href="https://www.youtube.com/@MarvelLatino" target="_blank"> <img src="images/iconsYoutube.png" alt="Youtube"></a>               
+            </div>
+            <div class="acerca" >
+                <h4>Acerca de</h4>
+                <a href="https://www.amazon.com/x-men-‘97/s?k=x-men+‘97" target="_blank">Merchandising.</a>
+                <a href="" target="_blank">Contacto.</a>
+                <a href="#" target="_blank">Legales.</a>
+            </div>
+        </div>        
+        <p>&copy; Derechos reservados.</p>
+    </footer>
+    <script type="text/javascript">
+        function myFunction() {
+          var x = document.getElementById("menu_bar");
+          if (x.className === "") {
+            x.className += " responsive";
+          } else {
+            x.className = "";
+          }
+        }
+    </script>
+</body>
+</html>
