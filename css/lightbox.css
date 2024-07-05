@@ -11,7 +11,6 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
   opacity: 0.8;
   display: none;
-  justify-content: center;
 }
 
 .lightbox {
@@ -33,11 +32,7 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 2px solid rgb(255, 255, 255);
-}
-
-a img {
-  margin-right: 2em;
+  border: 2px solid silver;
 }
 
 .lightbox a img {
@@ -201,7 +196,6 @@ a img {
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
-  background-color: aqua;
 }
 
 .lb-data .lb-close:hover {

@@ -12,29 +12,37 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
+        <link href="css/lightbox.css" rel="stylesheet" />
         <link rel="icon" href="images/iconoweb.png">
         <title>X-MEN'97</title>
     </head>
     <body class="anton-sc-regular">
         <header>
-            <div  >
-                <a  href="indexprueba.html"><img class="logo" src="images/xmenlogo1.png" alt="Logo Pixar"></a>
+            <div>
+             <div  >
+                 <a  href="index.html"><img class="logo" src="images/xmenlogo1.png" alt="Logo X-Men"></a>
+             </div>
+             <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+             <nav id="menu_bar" class="menu_horizontal">
+                 <ul>
+                     <li><a href="index.html">Inicio</a></li>
+                     <li class="efectonav">
+                         <a  href="historia.html">Historia</a>
+                         <ul class="menu_vertical">
+                             <li> <a class="submenu" href="temporadas.html">Temporadas</a></li> 
+                         </ul>
+                     </li>
+                     <li><a class="negrita" href="galeria.html">Galería</a></li>           
+                     <li><a href="personajes.html">Personajes</a></li>               
+                     <li><a href="contacto.html">Contacto</a></li>
+                 </ul>
+             </nav>
             </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-            <nav id="menu_bar">
-                <ul >
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="personajes.html">Personajes</a></li>
-                    <li><a class="negrita"  href="galeria.html">Galería</a></li>
-                    <li><a href="resenas.html">Reseñas</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+         </header> 
     <section class="galeria" >
         <h1>GALERÍA</h1>
         <article >
-            <a class="example-image-link" href="images/galeria/img1.webp" data-lightbox="Buzz" data-title=""><img class="example-image" src="images/galeria/img1.webp" alt=""/></a>
+            <a class="example-image-link" href="images/galeria/img1.webp" data-lightbox="Buzz" data-title="Mansion Xavier"><img class="example-image" src="images/galeria/img1.webp" alt=""/></a>
             <a class="example-image-link" href="images/galeria/img2.webp" data-lightbox="Buzz" data-title=""><img class="example-image" src="images/galeria/img2.webp" alt=""/></a>
             <a class="example-image-link" href="images/galeria/img3.webp" data-lightbox="Buzz" data-title=""><img class="example-image" src="images/galeria/img3.webp" alt=""/></a>
             <a class="example-image-link" href="images/galeria/img4.webp" data-lightbox="Buzz" data-title=""><img class="example-image" src="images/galeria/img4.webp" alt=""/></a>
@@ -67,7 +75,7 @@
                     <img  src="images/pngwing.com.png" alt="">
                 </a>
             </div>
-            <div>
+            <div class="socialred">
                 <a href="https://www.facebook.com/Disney/?locale=es_LA" target="_blank"> <img src="images/iconsFacebook.png" alt="Facebook"></a> 
                 <a href="https://x.com/MarvelLATAM" target="_blank"> <img src="images/iconsTwitterx.png" alt="Twitter"></a>
                 <a href="https://www.instagram.com/xmenofficial/" target="_blank"> <img src="images/iconsInstagram.png" alt="Instagram"></a>    

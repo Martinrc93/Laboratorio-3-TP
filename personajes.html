@@ -12,82 +12,192 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
+    <link href="css/lightbox.css" rel="stylesheet" />
     <link rel="icon" href="images/iconoweb.png">
     <title>X-MEN'97</title>
 </head>
 <body class="anton-sc-regular">
     <header>
-        <div  >
-            <a  href="index.html"><img class="logo" src="images/xmenlogo1.png" alt="Logo Pixar"></a>
+        <div>
+         <div  >
+             <a  href="index.html"><img class="logo" src="images/xmenlogo1.png" alt="Logo X-Men"></a>
+         </div>
+         <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+         <nav id="menu_bar" class="menu_horizontal">
+             <ul>
+                 <li><a href="index.html">Inicio</a></li>
+                 <li class="efectonav">
+                     <a  href="historia.html">Historia</a>
+                     <ul class="menu_vertical">
+                         <li> <a class="submenu" href="temporadas.html">Temporadas</a></li> 
+                     </ul>
+                 </li>
+                 <li><a href="galeria.html">Galería</a></li>           
+                 <li><a class="negrita" href="personajes.html">Personajes</a></li>               
+                 <li><a href="contacto.html">Contacto</a></li>
+             </ul>
+         </nav>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
-        <nav id="menu_bar">
-            <ul >
-                <li><a href="index.html">Inicio</a></li>
-                <li><a class="negrita" href="personajes.html">Personajes</a></li>
-                <li><a href="galeria.html">Galería</a></li>
-                <li><a href="resenas.html">Reseñas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <h1>PERSONAJES</h1>
+     </header> 
     <section class="personajes">  
-        <article>
-            <div>
-                <h3>Mageneto</h3>              
+        <h1>PERSONAJES</h1>
+        <div>
+            <article>
                 <div>
-                   <div class="card">
-                        <img  src="images/personajes/mageneto.png" alt="Mageneto">
-                   </div>
-                    <p>Un terrorista e supremacista mutante recién indultado por la ONU, que es el nuevo líder de los X-Men, a quien Xavier le ha otorgado el control del instituto y la misión de Xavier.</p>
-                </div>          
-            </div>
-        </article>
-        <article>
-            <div>
-                <h3>Cyclops</h3>              
+                    <h3>Mageneto</h3>              
+                    <div>
+                       <div class="card">
+                            <img  src="images/personajes/mageneto.png" alt="Mageneto">
+                       </div>
+                        <p>
+                            Un terrorista y supremacista mutante recién indultado por la ONU, que es el nuevo líder de los X-Men, a quien Xavier le ha otorgado el control del instituto y la misión de Xavier.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
                 <div>
-                    <div class="card" >
-                        <img src="images/personajes/cyclops.png" alt="Cyclops">
-                    </div>                  
-                    <p>Comandante de campo de los X-Men, cuyos ojos pueden emitir poderosos rayos de energía conmovedora. Scott ahora cuestiona su propósito en la vida después de la partida de Xavier.</p>
-                </div>          
-            </div>
-        </article>
-        <article>
-            <div>
-                <h3>Jean Grey</h3>              
+                    <h3>Cyclops</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/cyclops.png" alt="Cyclops">
+                        </div>                  
+                        <p>
+                            Comandante de campo de los X-Men, cuyos ojos pueden emitir poderosos rayos de energía conmovedora. Scott ahora cuestiona su propósito en la vida después de la partida de Xavier.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
                 <div>
-                    <div class="card" >
-                        <img src="images/personajes/Jean_Grey.png" alt="Jean Grey">
-                    </div>                  
-                    <p>Comandante de campo de los X-Men, cuyos ojos pueden emitir poderosos rayos de energía conmovedora. Scott ahora cuestiona su propósito en la vida después de la partida de Xavier.</p>
-                </div>          
-            </div>
-        </article>
-        <article>
-            <div>
-                <h3>Wolverine</h3>              
+                    <h3>Jean Grey</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Jean_Grey.png" alt="Jean Grey">
+                        </div>                  
+                        <p>
+                            La esposa de Scott, una mutante telepática y telequinética que lo está ayudando a ascender al liderazgo en ausencia de Xavier.
+                        </p>
+                </div>
+            </article>
+            <article>
                 <div>
-                    <div class="card" >
-                        <img src="images/personajes/Wolverine.png" alt="Wolverine">
-                    </div>                  
-                    <p>Comandante de campo de los X-Men, cuyos ojos pueden emitir poderosos rayos de energía conmovedora. Scott ahora cuestiona su propósito en la vida después de la partida de Xavier.</p>
-                </div>          
-            </div>
-        </article>
-        <article>
-            <div>
-                <h3>Beast</h3>              
+                    <h3>Wolverine</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Wolverine.png" alt="Wolverine">
+                        </div>                  
+                        <p>
+                            Un mutante impulsivo con un factor de curación regenerativo, sentidos intensificados y un esqueleto revestido de adamantium que le proporciona huesos indestructibles y garras retráctiles. Aunque sigue tan brusco como siempre, Wolverine se ha calmado más gracias al regreso de su mejor amigo Morph.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
                 <div>
-                    <div class="card" >
-                        <img src="images/personajes/Beast.png" alt="Beast">
-                    </div>                  
-                    <p>Comandante de campo de los X-Men, cuyos ojos pueden emitir poderosos rayos de energía conmovedora. Scott ahora cuestiona su propósito en la vida después de la partida de Xavier.</p>
-                </div>          
-            </div>
-        </article>
+                    <h3>Gambit</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Gambit.png" alt="Gambit">
+                        </div>                  
+                        <p>
+                            Un mutante que puede cargar la mayoría de los objetos con energía cinética explosiva.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Rogue</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Rogue.png" alt="Rogue">
+                        </div>                  
+                        <p>
+                            Una mutante que posee la capacidad incontrolable de absorber los recuerdos, poderes y energía de aquellos a quienes toca. Rogue tiene un pasado con Magneto, que ninguno de los X-Men conoce.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Storm</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/storm.png" alt="Storm">
+                        </div>                  
+                        <p>
+                            Una mutante que puede controlar el clima y es la tercera al mando de los X-Men. Desde el final de la serie original, Tormenta ha bajado el tono de su discurso teatral y ahora luce un mohawk.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Beast</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Beast.png" alt="Beast">
+                        </div>                  
+                        <p>
+                            Un mutante con fuerza y agilidad sobrehumanas y cuyo cuerpo está cubierto de pelaje azul.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Jubilee</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Jubilee.png" alt="Jubileet">
+                        </div>                  
+                        <p>El miembro más joven de los X-Men, que puede crear explosiones similares a fuegos artificiales. Como miembro júnior del equipo, Jubilee se encarga de ser mentora de Sunspot.
+    
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Morph</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Morph.png" alt="Morph">
+                        </div>                  
+                        <p>
+                            Un metamorfo mutante con la capacidad de alterar su apariencia física y voz a voluntad para parecerse a la de cualquier persona que elija. El diseño de Morph ha cambiado de la serie original a una apariencia "pálida, sin pelo y con rasgos inexpresivos" similar a la versión del personaje que se ve en la historia del cómic de la Era de Apocalipsis y el cómic Exiles.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Bishop</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Bishop.png" alt="Bishop">
+                        </div>                  
+                        <p>
+                            Un mutante de un futuro distópico, que se unió a los X-Men durante el salto temporal.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h3>Mr.Sinister</h3>              
+                    <div>
+                        <div class="card" >
+                            <img src="images/personajes/Mr._Sinister.png" alt="Mr.Sinister">
+                        </div>                  
+                        <p>
+                            Un científico genético de la época victoriana, Londres, que tiene una vendetta con Cyclops y Jean Grey.
+                        </p>
+                    </div>          
+                </div>
+            </article>
+        </div>
     </section>
     <footer>
         <div class="info">
