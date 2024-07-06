@@ -365,15 +365,7 @@ template {
 	/* font-style: normal; */
 	/* letter-spacing: 0; */
 	
-  }
-  
-/* body .libre-baskerville-bold{
-	font-family:  'Libre Baskerville',sans-serif;
-}  */
-
-/* body .anton-sc-regular{
-	font-family: "Anton SC", sans-serif;
-} */
+} 
 .negrita{
 	font-weight: bold;
 	color: #f1c232;
@@ -385,31 +377,10 @@ body{
 	padding-bottom: 300px;
 	min-height: 100vh;
 	overflow-x: hidden;
-	/* font-family: "anton-sc-regular"; */
-	/* font-family: 'Anton sc' ; */
-	/* font-family: 'Libre Baskerville'; */
-	/* background-image: url(../images/iconoweb.png);
-	background-size: 80px; */
-	/* background-color: transparent; */
-	/* color: white; */
 }
-/* body::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url(../images/iconoweb.png);
-	background-size: 80px;
-	background-repeat: repeat-x;
-	opacity: 0.09;
-	z-index: -1;
-  }	 */
  a:link,a:visited{
 	text-decoration: none;
-	 }
-
+}
 a{
 	color: #ffffff;
 }
@@ -420,10 +391,7 @@ header{
 	height: 150px;
 	background-color: #052542;
 	text-transform: uppercase;
-	/* border-top-left-radius: -50%;
-	border-top-right-radius: -50%; */
 	border-width: 3px;
-	/* padding: auto; */
 	box-shadow: 0px 0px 20px 0px #f1c232 inset;
 	border-bottom: solid #f1c232;
 	border-bottom-left-radius: 100%;
@@ -439,43 +407,29 @@ header div{
 	justify-content: center;
 	margin-bottom: 0;
 	padding: 0 0;
-	/* border: 20px solid black; */
-	/* background-color: #fff; */
 }
-
 nav{
 	display: flex;
 	font-size: 26px;
 	align-items: center;
 	align-content: center;
 }
-.menu_horizontal{
-	/* width: auto; */
-}
 .menu_horizontal ul{
 	list-style: none;
 	display: flex;
-	/* position: relative; */
 }
 .menu_horizontal ul li{
 	position: relative;
 	 max-width: 200px;
-	/* padding: 6px 6px; */
 }
 .menu_horizontal ul li a{
 	 padding: 6px 6px; 
 	 position: relative;
 }
-
-/* .menu_horizontal ul li a{
-	display: block; 
-} */
  .menu_horizontal ul li a:hover{
 	color: #f94115;
 } 
-
 .menu_horizontal ul li:hover .menu_vertical li{
-	/* display: block; */
 	display: block;
 	display: grid;
 }
@@ -485,10 +439,8 @@ nav{
     padding: 0;
     background-color: #052542;
     position: absolute;
-	/* top: 100%; */
 	left: 1%;
 	list-style: none;
-    /* z-index: 1;  */
 	width: auto;	
 }
 .menu_vertical li{
@@ -497,20 +449,13 @@ nav{
 }
 .menu_vertical li a{
 	display: block;
-	/* padding: 8px 15px; */
 }
-/* .efectonav{
- color: #00ffb3;
-} */
-/* .menu_vertical li a{
-} */
  .logo{
 	max-width: 150px;
 	max-height:  auto ;
   }
 /* ICONO-------- */
 .icon { display: none; }
-
 h1 {
 	font-size: 60px;
 	text-align: center;
@@ -520,10 +465,8 @@ h1 {
 	-webkit-text-stroke-width: 0.2px;
   	-webkit-text-stroke-color: #f94115;
   }
-
 section{
 	max-width: 1300px;
-	/* width: 100%; */
 	margin-left: auto;
 	margin-right: auto;
   	margin-top: 3%;
@@ -538,19 +481,16 @@ section{
 	justify-content:center;
 	align-items: end;
 	color: #ffffff;
-	
 } 
  .principal div{
   margin-bottom: 3%;
 }
-
 .principal div img{
 	width: 100%;
 }
 .secundario{
 	margin: 0 auto;
 	display: flex;
-
 }
 .secundario div{
 	width: 33%;
@@ -568,10 +508,7 @@ h4{
 .secundario div:hover{
 	background: linear-gradient(0.25turn,#ebf8e100,#1a639b,#ebf8e100);	
 }
-
-
 /* FOOTER--------------- */
-
 footer {
 	position: absolute;
 	background-color: #052542;
@@ -611,7 +548,6 @@ footer {
 	flex-direction: column;
 	align-items: start;
 	width: 150px;
-	
 }
 .acerca h4{
 	font-size: 20px;
@@ -630,23 +566,7 @@ footer a:hover{
 	background-color: #f1c232;
 	border-radius: 50px	;
 	transition: 0.7s;
-	/* background-image: url(../images/iconsFacebookHover.png); */
-
 }
-/* .socialred #facebookefecto:hover{
-	background-image: url(../images/close.png);
-}
-.socialred #facebookefecto:hover{
-	background-image: url(../images/close.png);
-}
-.socialred #facebookefecto:hover{
-	background-image: url(../images/close.png);
-} */
-
-/* CONTACTO------------ */
-/* .prueba{
-	max-width: 100vw;
-} */
 .form{
 	width:auto;;
 	height: 600px;
@@ -720,7 +640,6 @@ div.pie_contacto{
 div.pie_contacto span{
 	margin:0 5px 0 15px;
 }
-
 textarea{
 	margin-top: 10px;
 	width: 100%;
@@ -740,11 +659,11 @@ textarea{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-evenly;
-	margin: 25px 10px;
+	margin: 25px auto;
 }
 .galeria article a img {
 	max-width: 350px;
-	max-height: auto;
+	height: auto;
 	border: 2px solid #1a639b;
 	border-color: silver;
 	border-radius: 20px;
@@ -755,14 +674,10 @@ textarea{
 	box-shadow: 0px 0px 30px 0px #f1c232;
 	transition: box-shadow 0.5s;
 }
-
-
 /* PERSONAJES------------------- */
-
 .personajes{
 	display: grid;
 	color: #fff;
-	/* justify-content:space-evenly; */
 	max-width: 1800px ;
 	margin: 0 auto;
 }
@@ -770,14 +685,12 @@ textarea{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content:space-evenly;
-	/* margin: 25px 10px; */
 }
 .personajes div article { 
 	align-items: center;
 	width: 300px;
 	margin: 2vh;
 	margin: 2vw;
-	/* border:10px solid #000; */
 	padding: 2vh;
 	border-radius: 25px;
 	box-shadow: 
@@ -792,9 +705,7 @@ textarea{
 .personajes div article div div{
 	display: flex;
 	align-content: center;
-	/* text-align: center;  */
 } 
-
  .personajes div article div div img{
 	width: auto;
 } 
@@ -869,7 +780,6 @@ textarea{
 	-webkit-text-stroke-width: 0.5px;
   	-webkit-text-stroke-color: #FD1602;
 }
-
 /* HISTORIA */
 .historia{
 	display: grid;
@@ -893,7 +803,6 @@ textarea{
 .historia article h2{
 	-webkit-text-stroke-width: 0.5px;
   	-webkit-text-stroke-color: #1a639b;
-	/* color: #1a639b; */
 }
 .historia h3{
 	font-size: 55px;
@@ -901,9 +810,7 @@ textarea{
 	color: #052542;
 	-webkit-text-stroke-width: 0.5px;
   	-webkit-text-stroke-color: #1a639b;
-
 }
-
 .historia h3:hover{
     text-shadow: 
         0 0 5px #E3C33A,
@@ -916,7 +823,6 @@ textarea{
         0 0 70px #E3C33A;
   		-webkit-text-stroke-color: #1a639b00;
 }
-/* ------------ */
 /* Temporada 1 */
 .temp{
 	display: grid;
@@ -926,9 +832,7 @@ textarea{
 }
 .temp article{
 	margin-top: 10vh;
-	color: #fff;
-	/* box-shadow: 0 5px 10px black; */
-	
+	color: #fff;	
 }
 .temp div{
 	text-align: center;
@@ -945,16 +849,11 @@ textarea{
 	padding: 0 0;
 	text-align: center;
 }
-
-
-
 /* ----------- */
-
 @media (max-width: 580px) { 
 header{
 	display: flex;
 	align-items: center;
-	/* flex-wrap: wrap; */
 	position: sticky;
 	top: 0;
 	z-index: 1;
@@ -966,7 +865,6 @@ header .menu_horizontal{
 header div{
 	width: 65vw;
 	justify-content: space-between;
-	/* background-color: #fff;	 */
 }
 header a{
 }
@@ -976,23 +874,7 @@ header a{
 	height: auto;
 	position: absolute;
 	right: 10vw;
-	/* background-color: #000; */
 }
-/* .icon a{
-	width: 500px;
-	height: 500px;
-} */
- /* header div, header a {
-	flex: 1 0 50%;
-} */
-/* header nav {
-	flex-basis: 100%;
-} */
-/* .icon {
-	display: block;
-	padding-right: 0.6rem;
-	text-align: right;
-}  */
  nav ul {
 	display: none;
 }
@@ -1001,7 +883,6 @@ nav.responsive{
 	background-color:#052542; 
 	justify-content: center;
 	position: relative;
-	/* top : 50px; */
 	right: -15vw;
 	top: 15vw;
 	padding: 2px;
@@ -1014,12 +895,6 @@ nav.responsive ul {
 	flex-direction:column;
 	list-style: none;
 }
-nav.responsive ul li a {
-	/* display: block;
-	text-align: center;
-	/* padding: 0.5rem; */
-
-} 
 nav.responsive ul li a {
 	padding-right: 0;
 } 
@@ -1053,14 +928,10 @@ h4{
 	font-size: 1rem;
 }
 footer{
-	/* height: 80px; */
 	justify-content: center;
 	align-items: center;
 	min-width: 100vw;
 }
-/* footer img{
-} */
-
 .info{
 	justify-content: space-between;
 } 
